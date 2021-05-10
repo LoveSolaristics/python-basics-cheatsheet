@@ -11,13 +11,12 @@ def img_to_bytes(img_path):
     return encoded
 
 
-st.set_page_config(page_title='Шпоргалка Python',
-                   page_icon=None,
+st.set_page_config(page_title='Python Basics',
                    layout='wide',
                    initial_sidebar_state='expanded')
 
 with st.sidebar:
-    st.title('Шпоргалка Python')
+    st.title('Шпоргалка по Python')
 
     st.markdown("""
     Выжимка основных сведений о языке, необходимых для сдачи ЕГЭ по информатике
@@ -33,7 +32,6 @@ with st.sidebar:
     
     ## Изучение языка
     """, unsafe_allow_html=True)
-
 
     page_names = ['Знакомство с Python',
                   'Нелинейные алгоритмы',
@@ -56,13 +54,18 @@ with st.sidebar:
         (https://streamlit.io) <small>Streamlit 0.81.1 | May 2021</small>'''.format(
             img_to_bytes("images/streamlit-logo.png")), unsafe_allow_html=True)
 
-
     st.markdown(
         '''
         ## Прочее
         [<img src='data:image/png;base64,{}' class='img-fluid' width=32 height=32>]\
         (https://vk.com/lovesolaristics) <small>Вопросы и предложения</small>'''.format(
             img_to_bytes("images/brain.png")), unsafe_allow_html=True)
+
+    st.markdown(
+        '''
+        [<img src='data:image/png;base64,{}' class='img-fluid' width=32 height=32>]\
+        (https://github.com/LoveSolaristics/python-basics-cheatsheet) <small>Исходный код</small>'''
+        .format(img_to_bytes("images/github-logo.png")), unsafe_allow_html=True)
 
 if page == page_names[0]:
     p1.print_page()

@@ -11,6 +11,10 @@ A cheat sheet for Python 3 language.
 
 A clean venv with just pip and then Streamlit
 
+## Deployments
+
+[Python Basics Cheat Sheet - Heroku](https://python-basics-cheatsheet.herokuapp.com)
+
 ## Show me
 
 ![Screenshot](images/python-basics-cheatsheet.png)
