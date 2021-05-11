@@ -1,5 +1,7 @@
 # python-basics-cheatsheet
 
+[![Heroku App Status](http://heroku-shields.herokuapp.com/python-basics-cheatsheet)](https://python-basics-cheatsheet.herokuapp.com)
+
 A cheat sheet for Python 3 language.
 
 ## Versioning
