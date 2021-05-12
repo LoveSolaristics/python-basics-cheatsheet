@@ -1,6 +1,7 @@
 # python-basics-cheatsheet
 
 [![Heroku App Status](http://heroku-shields.herokuapp.com/python-basics-cheatsheet)](https://python-basics-cheatsheet.herokuapp.com)
+[![code style black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 A cheat sheet for Python 3 language.
 
@@ -16,6 +17,8 @@ A clean venv with just pip and then Streamlit
 ## Deployments
 
 [Python Basics Cheat Sheet - Heroku](https://python-basics-cheatsheet.herokuapp.com)
+
+[Python Basics Cheat Sheet - Streamlit](https://share.streamlit.io/lovesolaristics/python-basics-cheatsheet/app.py)
 
 ## Show me
 
