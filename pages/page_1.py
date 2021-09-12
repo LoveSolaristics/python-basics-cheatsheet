@@ -4,7 +4,7 @@ import streamlit as st
 def print_page():
     st.markdown("# Знакомство с Python")
     st.subheader("Первая программа на Python")
-    col1, col2 = st.beta_columns(2)
+    col1, col2 = st.columns(2)
     with col1:
         st.code(
             """
@@ -31,7 +31,7 @@ def print_page():
         )
 
     st.subheader("Типы переменных")
-    col1, col2 = st.beta_columns(2)
+    col1, col2 = st.columns(2)
     with col1:
         st.write(
             "Переменные в Python могут быть разного типа — целые числа, дробные числа, строки:"
@@ -104,7 +104,7 @@ def print_page():
         st.code("2", language="out")
 
     st.subheader("Списки")
-    col1, col2 = st.beta_columns(2)
+    col1, col2 = st.columns(2)
     with col1:
         st.write(
             "Списки — это последовательности, похожие на массивы из других языков программирования."

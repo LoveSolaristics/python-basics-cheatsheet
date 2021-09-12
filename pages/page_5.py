@@ -3,7 +3,7 @@ import streamlit as st
 
 def print_page():
     st.markdown("# Строки и библиотеки")
-    col1, col2 = st.beta_columns(2)
+    col1, col2 = st.columns(2)
     with col1:
         st.subheader("split() — разделение строк")
 
@@ -96,12 +96,12 @@ def print_page():
         "После чего можно вызывать функции из библиотеки."
     )
 
-    col1, col2 = st.beta_columns(2)
+    col1, col2 = st.columns(2)
     col1.markdown("__Импортируем библиотеку целиком__")
     col2.markdown("__Импортируем только нужные функции__")
 
     st.write("В библиотеке math собраны функции для подсчёта математических величин:")
-    col1, col2 = st.beta_columns(2)
+    col1, col2 = st.columns(2)
     col1.code(
         """
     import math
@@ -116,7 +116,7 @@ def print_page():
     )
 
     st.write("Модуль random используется для работы со случайными числами:")
-    col1, col2 = st.beta_columns(2)
+    col1, col2 = st.columns(2)
     col1.code(
         """
     import random

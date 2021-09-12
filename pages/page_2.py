@@ -5,7 +5,7 @@ def print_page():
     st.markdown("# Нелинейные алгоритмы")
 
     st.subheader("Циклы")
-    col1, col2 = st.beta_columns(2)
+    col1, col2 = st.columns(2)
     with col1:
         st.write("Пример цикла `for` в Python:")
         st.code(
@@ -81,7 +81,7 @@ def print_page():
         "Логические выражения могут принимать логические значения "
         "`True` («истина») и `False` («ложь»)."
     )
-    col1, col2 = st.beta_columns(2)
+    col1, col2 = st.columns(2)
     with col1:
         st.write("Условный оператор `if` для записи ветвления «если – то»:")
         st.code(
@@ -129,7 +129,7 @@ def print_page():
         )
 
     st.subheader("Логические выражения")
-    col1, col2 = st.beta_columns(2)
+    col1, col2 = st.columns(2)
     with col1:
         st.markdown(
             """

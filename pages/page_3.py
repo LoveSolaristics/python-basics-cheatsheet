@@ -7,7 +7,7 @@ def print_page():
         "Примеры встроенных в Python функций: `print()`, `str()`, `int()`, `float()`, `len()`."
     )
 
-    col1, col2 = st.beta_columns(2)
+    col1, col2 = st.columns(2)
     with col1:
         st.subheader("Создаём свою функцию")
         st.code(
@@ -46,7 +46,7 @@ def print_page():
         )
 
     st.subheader("Аргументы функции")
-    col1, col2 = st.beta_columns(2)
+    col1, col2 = st.columns(2)
 
     with col1:
         st.code(
@@ -110,7 +110,7 @@ def print_page():
         )
 
     st.subheader("Возврат значений из функции")
-    col1, col2 = st.beta_columns(2)
+    col1, col2 = st.columns(2)
 
     with col1:
         st.code(

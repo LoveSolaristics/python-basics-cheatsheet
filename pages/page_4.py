@@ -5,7 +5,7 @@ def print_page():
     st.markdown("# Словари и множества")
     st.subheader("Словари")
 
-    col1, col2 = st.beta_columns(2)
+    col1, col2 = st.columns(2)
     with col1:
         st.write(
             "Словарь (`dict`) оформляется фигурными скобками. Его заполняют пары, "
@@ -56,7 +56,7 @@ def print_page():
     )
 
     st.subheader("Множества")
-    col1, col2 = st.beta_columns(2)
+    col1, col2 = st.columns(2)
     with col1:
         st.markdown(
             """
